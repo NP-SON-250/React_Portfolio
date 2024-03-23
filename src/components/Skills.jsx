@@ -1,6 +1,7 @@
 // import content
 import { createElement, useState } from "react";
 import { content } from "../Content";
+import Contact from "./Contact";
 // import modal package
 import Modal from "react-modal";
 
@@ -12,8 +13,9 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    maxWidth: "23rem",
+    maxWidth: "28rem",
     width: "90%",
+    height: "40rem"
   },
   overlay: {
     padding: "2rem",
@@ -24,6 +26,7 @@ Modal.setAppElement("#root");
 const Skills = () => {
   const { skills } = content;
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [contactModalIsOpen, setIsOpenCantact] = useState(false);
   const [selectSkill, setSelectSkill] = useState(null);
 
   function openModal() {
@@ -32,6 +35,13 @@ const Skills = () => {
 
   function closeModal() {
     setIsOpen(false);
+  }
+  function openModalContact() {
+    setIsOpenCantact(true);
+  }
+
+  function closeModalContact() {
+    setIsOpenCantact(false);
   }
 
   return (
@@ -48,22 +58,35 @@ const Skills = () => {
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
+          <li>{selectSkill?.description}</li>
+          <li>{selectSkill?.description1}</li>
+          <li>{selectSkill?.description2}</li>
           <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
+          {selectSkill?.description3}
           </li>
         </ul>
         <br />
-        <div className="flex justify-end">
-          <button onClick={closeModal} className="btn">
+        <div className="flex justify-between">
+          <button className="btn hover:bg-dark_primary hover:text-white"
+          onClick={() => {
+            openModalContact();
+          }}>
+            Hire me
+          </button>
+          <button onClick={closeModal} className="btn hover:bg-dark_primary hover:text-white">
             Close
           </button>
+        </div>
+      </Modal>
+
+        {/* modal */}
+        <Modal
+        isOpen={contactModalIsOpen}
+        onRequestClose={closeModalContact}
+        style={customStyles}
+      >
+        <div>
+          <Contact/>
         </div>
       </Modal>
 
