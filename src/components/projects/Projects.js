@@ -20,8 +20,12 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-10">
         <ProjectsCard
           title="UBUHANGA CONGOZI"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" This Provisoir Training Website has transformed the way my
+                    clients prepare for their exams. The platform is fast,
+                    user-friendly, and packed with well-structured training
+                    materials that make learning easier and more effective. It
+                    has become an essential tool for anyone aiming to gain their
+                    driving license with confidence."
           src={projectOne}
           git={<BsGithub />}
           grobal={<FaGlobe />}
@@ -30,8 +34,11 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Hak 4k Group Ltd"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Hak 4k Company Profile showcases the brand’s identity,
+                    services, and values through a clean, modern, and visually
+                    engaging design. The platform provides a clear presentation
+                    of the company’s mission and offerings, helping potential
+                    clients understand its strengths and capabilities."
           src={projectTwo}
           git={<BsGithub />}
           grobal={<FaGlobe />}
@@ -39,36 +46,15 @@ const Projects = () => {
           gitLink={"https://github.com/NP-SON-250/Hak4kgroupltd"}
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="E-commerce Website"
+          des="An e-commerce web application built with modern technologies, offering product
+listing, filtering, shopping cart functionality, user authentication, and order
+processing."
           src={projectThree}
           git={<BsGithub />}
           grobal={<FaGlobe />}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-          git={<BsGithub />}
-          grobal={<FaGlobe/>}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-          git={<BsGithub />}
-          grobal={<FaGlobe/>}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-          git={<BsGithub />}
-          grobal={<FaGlobe/>}
+          grobalLink={"https://smart-business-frontend.vercel.app/"}
+          gitLink={"https://github.com/NP-SON-250/SmartBusinessFrontend"}
         />
       </div>
     </section>
