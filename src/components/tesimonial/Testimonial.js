@@ -160,7 +160,7 @@ const Testimonial = () => {
                   </p>
                   <h3 className="text-2xl font-bold">Project Owner</h3>
                   <p className="text-sm tracking-wide text-gray-500">
-                    Hak 4k Group Ltd / 250 787 222 766
+                    Hak 4k Group Ltd / 250 788 918 156
                   </p>
                 </div>
               </div>
