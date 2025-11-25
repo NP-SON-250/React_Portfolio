@@ -12,27 +12,27 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-secondary tracking-[4px]">1998 - 2010</p>
+          <p className="text-sm text-secondary tracking-[4px]">2017 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
+            title="Bachelor in Business Information Technology"
+            subTitle="University of Rwanda (2021 - 2023)"
             result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Completed a comprehensive Business Information Technology program focused on software development, database management, networking, and IT-driven business solutions."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
+            title="Programming Certificates"
+            subTitle="Klab Training (2023 - 2023)"
             result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="Gained hands-on experience in full-stack development, including JavaScript, backend fundamentals, version control, and application deployment."
           />
           <ResumeCard
             title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
+            subTitle="Lycee Islamic De Rwamagana (2017 - 2019)"
             result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="Gained hands-on knowledge in computer networks, cabling, IP addressing, and network security principles during secondary school studies"
           />
         </div>
       </div>
@@ -40,27 +40,27 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-secondary tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-secondary tracking-[4px]">2017 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Software and Hardware Maintenance"
+            subTitle="IPRC Ngoma (2017)"
+            result="74%"
+            des="Completed hands-on training in both hardware and software maintenance, including PC assembly, diagnostics, OS installation, virus removal, and preventive maintenance procedures."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Switching and Routing"
+            subTitle="UNILAK Rwamagana (2018)"
+            result="80%"
+            des="Completed practical training in routing and switching, including IP routing, subnetting, VLAN management, inter-VLAN communication, and network security fundamentals."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="IT and Pension Administration"
+            subTitle="Zamara Rwanda (2025)"
+            result="Rwanda"
+            des="Worked across software development, IT support, and pension administration, handling system troubleshooting, contributing to internal software solutions, and supporting pension data processing over an 8-month period."
           />
         </div>
       </div>
